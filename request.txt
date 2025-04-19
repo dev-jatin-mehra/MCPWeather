@@ -2,7 +2,7 @@ Powershell Version :
 (Invoke-WebRequest -Uri "http://localhost:8000" `
 -Method POST `
 -Headers @{ "Content-Type" = "application/json" } `
--Body '{ "method": "get_weather", "params": { "location": "Bhimtal , Uttarakhand" } }'   
+-Body '{ "method": "get_weather", "params": { "location": "<Enter a location>" } }'   
 ).Content
 
 Cmd Version :
