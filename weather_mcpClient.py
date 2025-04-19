@@ -17,7 +17,7 @@ def ask_for_weather(location:str):
         data = response.json()
         if "result" in data:
             weather_data = data["result"]
-            print(f"Current Weather in the location {location} is :")
+            print(f"Current Weather in {location} is :")
             print(f"Temperature : {weather_data.get('temperature')} Celsius")
             print(f"Conditions : {weather_data.get('conditions')}")
             print(f"Humidity : {weather_data.get('humidity')}%")
@@ -32,5 +32,5 @@ def ask_for_weather(location:str):
 
 if __name__=='__main__':
     curr_location = get_current_location()
-    print(f"My current location is : {curr_location}")
+    print(f"My current location is {curr_location}")
     ask_for_weather(curr_location)

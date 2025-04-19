@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import json
 from typing import Dict, Any
 import aiohttp
-from fastapi import FastAPI, Request, Response
+from fastapi import FastAPI, Request
 
 load_dotenv()
 WEATHER_API = os.getenv('WEATHER_API') # importing from .env file
