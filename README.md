@@ -1,3 +1,4 @@
+NOTE :
 # Simple Weather MCP Server
 
 This is a basic implementation of an MCP (Model Context Protocol) server that retrieves current weather information for a specified location using the WeatherAPI.
