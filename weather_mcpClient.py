@@ -3,7 +3,7 @@ import requests
 MCP_SERVER_URL = "http://localhost:8000"
 
 def get_current_location():
-    return input("Enter a location")
+    return input("Enter Your location :")
 
 def ask_for_weather(location:str):
     payload = {
@@ -21,7 +21,7 @@ def ask_for_weather(location:str):
             print(f"Temperature : {weather_data.get('temperature')} Celsius")
             print(f"Conditions : {weather_data.get('conditions')}")
             print(f"Humidity : {weather_data.get('humidity')}%")
-            print(f"Wind Speed : {weather_data.get('wind_speed')}km/h")
+            print(f"Wind Speed : {weather_data.get('wind_speed')} kph")
         elif "error" in data:
             print(f"Error : {data['error']}")
         else:
