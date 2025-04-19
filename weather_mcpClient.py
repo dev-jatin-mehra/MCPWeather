@@ -1,5 +1,4 @@
 import requests 
-import json 
 
 MCP_SERVER_URL = "http://localhost:8000"
 
