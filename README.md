@@ -59,7 +59,7 @@ To interact with this MCP server, an MCP client (like an AI agent or another app
 {
   "method": "get_weather",
   "params": {
-    "location": "City, State" or "location": "City,Country"
+    "location": "<location>"
   }
 }
 ```
