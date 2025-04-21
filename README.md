@@ -28,7 +28,7 @@ This server listens for POST requests adhering to a simplified MCP structure. Wh
     cd MCPWeather
     ```
 
-2.  **Create a `.env` file in the same directory as `server/main.py`:**
+2.  **Create a `.env` file in the same directory as `root` dir:**
 
     ```bash
     WEATHER_API="YOUR_WEATHER_API_KEY"
