@@ -1,2 +1,4 @@
 .env
 mcp
+server/db/database.db
+**/__pycache__
